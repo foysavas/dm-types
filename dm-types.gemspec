@@ -138,7 +138,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<dm-core>, ["~> 1.0.2"])
       s.add_runtime_dependency(%q<fastercsv>, ["~> 1.5.3"])
-      s.add_runtime_dependency(%q<json_pure>, ["~> 1.4"])
+      s.add_runtime_dependency(%q<json_pure>, ["~> 1.5"])
       s.add_runtime_dependency(%q<uuidtools>, ["~> 2.1.1"])
       s.add_runtime_dependency(%q<stringex>, ["~> 1.1.0"])
       s.add_development_dependency(%q<rspec>, ["~> 1.3"])
